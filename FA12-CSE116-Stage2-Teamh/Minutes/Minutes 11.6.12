@@ -1,0 +1,12 @@
+Meeting Minutes – 11/6/12
+Mack Ward – mward4@buffalo.edu
+Hector Rodrigues – Hectorro@ buffalo.edu
+Sunny Mistry – Sunnymis@buffalo.edu
+Matt Carroll – mdcarrol@buffalo.edu
+
+Accomplishments:
+In recitation today we programmed the Finch robot to detect the brightest light in the Bird Cage. It stops once it is under the brightest spot and backs up if it passed that point. 
+This Week’s Goals:
+1.	Edit the method that we just made to detect the brightest light to make the finch move smoother. 
+2.	Have the Finch find the hottest spot in the Bird Cage
+3.	Hector has been working on a GUI to simulate the Finch which we will continue to work on

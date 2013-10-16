@@ -1,0 +1,14 @@
+Notes to the instructor:
+
+We have worked diligently on this project, testing various implementations and methods of getting the
+robot to perform various tasks. As a result, we have extra code within our main class, FinchController.
+that is not currently being used. This includes code that has been commented out, as well as methods that
+have the public access modifier of "private." One particular method, traverseEntireMaze(), was
+intended to cause the robot to traverse the entire maze, reading temperature (and light) values.
+However, the full implementation of the method was never completed. Additionally, some of our JUnit tests
+may be a little lackluster i.e., the tests themselves don't tell the user much, other than
+if the program ran correctly. The real feedback to the user is the tangible Finch robot
+and the display of the graphical user interface. While we only completed three parts 
+of the project,specifically parts 1, 2, and 5, we feel that the code contained within our project is 
+representative of the learning processes associated with this project. Certainly, more improvements 
+may be made in the (near) future.

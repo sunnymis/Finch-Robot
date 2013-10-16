@@ -1,0 +1,7 @@
+The code that we have compiled so far is primarily designated to work with a Finch in a simulator 
+within software, with a secondary goal of working with a Finch in hardware.  Through the course of
+Stage 1, we have discovered that the task of ensuring that the Finch follows through simple commands
+was more difficult than it had appeared.
+
+In Stage 1, we have only completed four objectives so far, considering that our TA Jen had told us that 
+completing 3/9 of the objectives was sufficient for submission.  

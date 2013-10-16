@@ -1,0 +1,39 @@
+CSE116 Final Project Finch Robot Manual - 11/12/12
+Sunny Mistry
+Mack Ward
+Matt Carroll
+Hector Rodriguez
+
+To test the various custom defined functions of the Finch, do the following:
+
+Place the Finch on the Perch in the bird cage.
+To begin, open the Testing.java class. From here you can call each of the methods
+to make the Finch Robot do its various tasks. 
+
+The main method of the testing class first instantiates a new FinchController object, which 
+takes in a reference to a new new Finch object:
+		FinchController fc = new FinchController(new Finch());
+
+Additionally, the main method calls the addTerminateButton method of the FinchController class, which displays
+a button to screen for easy termination of any currently running code executions
+		fc.addTerminateButton();
+		
+
+
+Lastly, again from within the main method of the Testing class, you can call the following methods
+which perform the listed funtions:
+
+traversePerimeter()
+	This method, which must be called on a FinchController class, causes the Finch to traverse around
+	the entire perimeter of the maze and return to the perch. It does not display any map or GUIs.
+
+
+findBrightLight()
+	This method, which must be called on a FinchController class, causes the Finch to find the brightest spot
+	in the birdcage (with minimum light value of 234) and stop underneath it.
+
+drawPerimeter()
+	This method, which must be called on a FinchController class, causes the Finch to traverse around
+	the entire perimeter of the maze and return to the perch. Additionally, it displays a GUI which 
+	displays a map of the birdcage, live, as the birdcage is being traversed. 
+	
